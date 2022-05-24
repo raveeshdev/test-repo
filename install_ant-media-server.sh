@@ -215,7 +215,7 @@ elif [ "$ID" == "centos" ] || [ "$ID" == "rocky" ]; then
     check
   fi
 
-  ports=("5080" "443" "8080" "5443" "1935")
+  ports=("8080" "443" "80" "5443" "1935")
 
   for i in ${ports[*]}
   do
